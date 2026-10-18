@@ -1,15 +1,15 @@
-import javax.swing.*;
+//import javax.swing.*;
 
-import java.awt.*;
+//import java.awt.*;
 
+import acm.program.*;
 
-
-public class Runner {
+public class Runner extends GraphicsProgram {
 
  
 
     public static void main(String[] args) {
-
+        /* 
 
         //Create the frame.
 
@@ -28,8 +28,10 @@ public class Runner {
         frame.pack();
 
         frame.setVisible(true);
+        */
 
-       
+        Runner world = new Runner();
+        world.start();
 
        
 
